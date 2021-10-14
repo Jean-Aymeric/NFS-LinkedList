@@ -13,6 +13,10 @@ public class Link {
         this(data, null);
     }
 
+    public char getData() {
+        return this.data;
+    }
+
     public Link getNext() {
         return this.next;
     }
